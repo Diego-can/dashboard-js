@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --color-primary: #4361EE;
+    --color-danger: #EF4444;
+    --color-success: #22C55E;
+    --color-warning: #F59E0B;
+    --color-info-dark: #475569;
+    --color-info-light: #CBD5E1;
+    --color-light: #F8FAFC;
+    --color-dark: #0F172A;
+    --color-primary-variant: #EEF2FF;
+    --color-dark-variant: #334155;
+    --color-background: #F1F5F9;
+
+    --card-border-radius: 2rem;
+    --border-radius1: .4rem;
+    --border-radius2: .8rem;
+    --border-radius3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
