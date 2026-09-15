@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=money_bag" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="./styles/globals.css">
@@ -86,6 +87,72 @@
                 </li>
             </ul>
         </aside>
+
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-symbols-outlined">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total em vendas</h3>
+                            <h2>R$25.506</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"> 
+                            </svg>
+                            <div class="number">
+                                <p>76%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Últimas 24h</small>
+                </div>
+
+                <div class="expenses">
+                    <span class="material-symbols-outlined">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total em despesas</h3>
+                            <h2>R$3.714</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"> 
+                            </svg>
+                            <div class="number">
+                                <p>89%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Últimas 24h</small>
+                </div>
+
+                <div class="income">
+                    <span class="material-symbols-outlined">money_bag</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total de lucro</h3>
+                            <h2>R$21.792</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"> 
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Últimas 24h</small>
+                </div>
+            </div>
+        </main>
     </div>
     
 </body>

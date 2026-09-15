@@ -26,6 +26,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    margin-top: 1.4rem;
+}
+
 aside {
     height: 100vh;
 }
