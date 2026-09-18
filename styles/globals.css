@@ -34,7 +34,7 @@ aside {
     height: 100vh;
 }
 
-a {
+a, b, h1, h2, h3, th {
     color: var(--color-dark);
 }
 
