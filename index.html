@@ -93,8 +93,7 @@
             <div class="date">
                 <input type="date">
             </div>
-
-            <div class="insights">
+            <section class="insights">
                 <div class="sales">
                     <span class="material-symbols-outlined">analytics</span>
                     <div class="middle">
@@ -151,8 +150,9 @@
                     </div>
                     <small class="text-muted">Últimas 24h</small>
                 </div>
-            </div>
-            <div class="recent-orders">
+            </section>
+
+            <section class="recent-orders">
                 <h2>Pedidos recentes</h2>
                 <table>
                     <thead>
@@ -203,8 +203,111 @@
                     </tbody>
                 </table>
                 <a class="show-all" href="#">Ver todas as vendas</a>
-            </div>
+            </section>
         </main>
+
+        <section class="right">
+            <header>
+                <button class="menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <div class="theme-toggle">
+                    <span class="material-symbols-outlined active">flare</span>
+                    <span class="material-symbols-outlined">nightlight</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Diego</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-pic">
+                        <img src="/img/profile-pic.avif" alt="Sua foto de perfil">
+                    </div>
+                </div>
+            </header>
+
+            <section class="recent-updates">
+                <h2>Atualizações recentes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-pic">
+                            <img src="/img/profile-pic-geralt.jpg" alt="Foto de perfil do Geralt">
+                        </div>
+                        <div class="message">
+                            <p><b>Geralt</b> recebeu seu pedido de <b>Espada de Aço do Cavaleiro de Toussaint</b></p>
+                            <small class="text-muted">7 minutos atrás</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-pic">
+                            <img src="/img/profile-pic-keyleth.webp" alt="Foto de perfil da Keyleth">
+                        </div>
+                        <div class="message">
+                            <p><b>Keyleth</b> recebeu seu pedido de <b>Cajado lendário Espiral da Confluência</b></p>
+                            <small class="text-muted">13 minutos atrás</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-pic">
+                            <img src="/img/profile-pic-luffy.webp" alt="Foto de perfil do Luffy">
+                        </div>
+                        <div class="message">
+                            <p><b>Luffy</b> recebeu seu pedido de <b>100kg de carne</b></p>
+                            <small class="text-muted">21 minutos atrás</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sales-analytics">
+                <h2>Análise de vendas</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>PEDIDOS ONLINE</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+42%</h5>
+                        <h3>2653</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>PEDIDOS OFFLINE</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="danger">-19%</h5>
+                        <h3>254</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">people</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>NOVOS CLIENTES</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+13%</h5>
+                        <h3>84</h3>
+                    </div>
+                </div>
+                <div class="item add-product ">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">add</span>
+                    </div>
+                    <h3>ADICIONAR PRODUTO</h3>
+                </div>
+            </section>
+        </section>
     </div>
     
 </body>
